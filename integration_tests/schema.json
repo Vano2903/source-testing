@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "videoData": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "thumbMaxResUrl": { "type": "string" },
+        "uploadDate": {
+          "type": "string",
+          "format": "date-time",
+          "airbyte_type": "timestamp_without_timezone"
+        },
+        "Length": { "type": "integer" }
+      }
+    },
+    "wonBy": { "type": "integer" },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "synergo": {
+          "type": "object",
+          "properties": {
+            "overall": {
+              "type": "object",
+              "properties": {
+                "tPoints": { "type": "integer" },
+                "t25": { "type": "integer" }
+              }
+            },
+            "g1": {
+              "type": "object",
+              "properties": {
+                "points": { "type": "integer" },
+                "n25": { "type": "integer" },
+                "valFe": { "type": "integer" },
+                "character": { "type": "string" }
+              }
+            },
+            "g2": {
+              "type": "object",
+              "properties": {
+                "points": { "type": "integer" },
+                "n25": { "type": "integer" },
+                "valFe": { "type": "integer" },
+                "character": { "type": "string" }
+              }
+            },
+            "g3": {
+              "type": "object",
+              "properties": {
+                "points": { "type": "integer" },
+                "n25": { "type": "integer" },
+                "valFe": { "type": "integer" },
+                "character": { "type": "string" }
+              }
+            }
+          }
+        },
+        "redez": {
+          "type": "object",
+          "properties": {
+            "overall": {
+              "type": "object",
+              "properties": {
+                "tPoints": { "type": "integer" },
+                "t25": { "type": "integer" }
+              }
+            },
+            "g1": {
+              "type": "object",
+              "properties": {
+                "points": { "type": "integer" },
+                "n25": { "type": "integer" },
+                "valFe": { "type": "integer" },
+                "character": { "type": "string" }
+              }
+            },
+            "g2": {
+              "type": "object",
+              "properties": {
+                "points": { "type": "integer" },
+                "n25": { "type": "integer" },
+                "valFe": { "type": "integer" },
+                "character": { "type": "string" }
+              }
+            },
+            "g3": {
+              "type": "object",
+              "properties": {
+                "points": { "type": "integer" },
+                "n25": { "type": "integer" },
+                "valFe": { "type": "integer" },
+                "character": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "comment": { "type": "string" },
+    "addedBy": { "type": "string" }
+  }
+}

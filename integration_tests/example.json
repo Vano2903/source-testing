@@ -1,0 +1,62 @@
+{
+  "videoData": {
+    "id": "mkelvKLWIZg",
+    "title": "COME HA FATTO? - PEGGLE",
+    "thumbMaxResUrl": "https://i.ytimg.com/vi/mkelvKLWIZg/maxresdefault.jpg",
+    "uploadDate": "2022-03-15T17:00:21Z",
+    "Length": 589
+  },
+  "wonBy": 0,
+  "stats": {
+    "synergo": {
+      "overall": {
+        "tPoints": 171650,
+        "t25": 1
+      },
+      "g1": {
+        "points": 68930,
+        "n25": 0,
+        "valFe": 0,
+        "character": "unicorno"
+      },
+      "g2": {
+        "points": 41440,
+        "n25": 1,
+        "valFe": 0,
+        "character": "unicorno"
+      },
+      "g3": {
+        "points": 61280,
+        "n25": 0,
+        "valFe": 25000,
+        "character": "unicorno"
+      }
+    },
+    "redez": {
+      "overall": {
+        "tPoints": 237124,
+        "t25": 0
+      },
+      "g1": {
+        "points": 113324,
+        "n25": 0,
+        "valFe": 5000,
+        "character": "coniglio"
+      },
+      "g2": {
+        "points": 54940,
+        "n25": 0,
+        "valFe": 5000,
+        "character": "coniglio"
+      },
+      "g3": {
+        "points": 68860,
+        "n25": 0,
+        "valFe": 0,
+        "character": "coniglio"
+      }
+    }
+  },
+  "comment": "ciao",
+  "addedBy": "vano"
+}
